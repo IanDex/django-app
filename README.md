@@ -1,7 +1,7 @@
 # django - React
 
 <kbd>
-  <img src="./login.png" alt="login" width='100%'/>
+  <img src="./login.PNG" alt="login" width='100%'/>
 </kbd>
 
 <br>
@@ -30,19 +30,19 @@
 
 > - Login
 > 
->   |  HTTP |  Path |  Method |  Permission 	|
->   | --- | --- | --- | --- | --- |
->   |**POST** |/login|CREATE| None |
+>   |  HTTP |  Path |  Method |  Permission
+>   | --- | --- | --- | --- | --- 
+>   |**POST** |/login|CREATE| None 
 > 
 > - User
 > 
->   |  HTTP |  Path |  Method |  Permission | 
->   | --- | --- | --- | --- | --- |
+>   |  HTTP |  Path |  Method |  Permission 
+>   | --- | --- | --- | --- | --- 
 >   |**POST** |/user|CREATE| Access Token
 > 
 > - Tareas - Task
 > 
->   |  HTTP |  Path |  Method |  Permission | 
+>   |  HTTP |  Path |  Method |  Permission 
 >   | --- | --- | --- | --- | --- |
 >   |**GET** |/todo|LIST| Access Token 
 >   |**POST** |/todo|CREATE| Access Token
